@@ -16,7 +16,7 @@ $(".question8").prevAll().addClass("answer");
 
 $(".question9").prev().addClass("answer");
 
-$(".question10").next().next().next().addClass("answer");
+$(".question10").nextAll().last().addClass("answer");
 
 $(".question11").parent().parent().parent().addClass("answer");
 
